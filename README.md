@@ -5,7 +5,7 @@ development for certain apps that enforce using SSL.
 Run it like so:
 
 ```bash
-docker run --rm -e PROXY_TO_URI='http://ADDRESS:3000' -p 8080:443 goodguide/nginx-local-ssh-forward
+docker run --rm -e PROXY_TO_URI='http://ADDRESS:3000' -p 8080:443 goodguide/devtools-proxy-ssl
 ```
 
 Where `ADDRESS` is an IP or hostname reachable from the docker environment,
